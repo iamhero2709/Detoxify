@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(224,176,207,1) 16%, rgba(214,177,211,1) 27%, rgba(201,179,215,1) 41%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+  color: #efeff1;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+.icon {
+  color: #2c503b;
+  height: 10vh;
+  width: 10vw;
+}
+
+.subheading {
+  color: rgb(237, 244, 245);
+}
+
+/* Container Styles */
+.Tip {
+  color: #2c503b;
+  margin-top: 3rem;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.Timer-button {
+  background-color: #e0b0cf;
+  margin-left: 2rem;
+  border-radius: 10%;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  padding: 1.25rem;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.Time-Display {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 3.75rem;
+  margin-bottom: 4.375rem;
+  padding: 0.625rem;
+  font-size: clamp(1.5rem, 5vw, 2.75rem);
+}
+
+.Time-left {
+  background-color: #e0b0cf;
+  padding: 1.25rem;
+  border-radius: 10%;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.Time-Text {
+  margin-top: 1.25rem;
+  color: #8E7DBE;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.Thought-Heading {
+  font-size: clamp(1.5rem, 5vw, 2.75rem);
+  margin: 3.75rem;
+  text-align: center;
+}
+
+.Thought-area {
+  background-color: #e0b0cf;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 0.5rem;
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  padding: 1.25rem;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.emoji-heading {
+  width: 50%;
+  margin-top: 2.75rem;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Entr-btn {
+  font-size: clamp(1rem, 2vw, 1.375rem);
+  border-radius: 5%;
+  margin-bottom: 1.25rem;
+  background-color: #e0b0cf;
+  padding: 0.75rem 1.375rem;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.emoji {
+  height: 6vh;
+  width: 10vw;
+  margin-left: 0.75rem;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.progress-Tracker {
+  margin-top: 2.5rem;
+}
+
+.habit-add {
+  width: 50vw;
+  padding: 2.5rem;
+  font-size: clamp(1rem, 2vw, 1.375rem);
+  background-color: #e0b0cf;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.habit {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-hbt {
+  background-color: #e0b0cf;
+  padding: 1.25rem;
+  width: 10vw;
+  border-radius: 5%;
+  border-color: #fff;
+  box-shadow: 6px 6px #333;
+}
+
+.checkbox-habit {
+  color: #333;
+  padding: 1rem;
+  margin: 0.375rem;
+}
+
+.check-icon {
+  color: red;
+}
+
+.Habit-text {
+  padding-top: 1.25rem;
+  color: #333;
+  font-weight: 300;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+.Habit-list {
+  margin-left: 25%;
+}
+
+.Habit-heading {
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  margin-left: 44%;
+}
+
+.progress-bar {
+  font-size: clamp(1rem, 2vw, 1.375rem);
+  margin: 0 1.25rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.25rem;
+  border-color: #fff;
+  box-shadow: 2px 2px grey;
+}
